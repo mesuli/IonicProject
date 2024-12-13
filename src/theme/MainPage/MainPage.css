@@ -1,0 +1,150 @@
+/* Header Toolbar Styling */
+.header-toolbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 15px;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5; /* Light gray background color for the header */
+}
+
+/* Logo Styling */
+.logo {
+  height: 60px;
+  margin: 10px 40px 5px 40px;
+}
+
+/* User Login Styling */
+.user-login {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100px; /* Adjust height as needed */
+}
+
+.user-login .tab-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content within the button */
+  padding: 0;
+  background: transparent; /* Optional: to remove button background */
+}
+
+.user-login .tab-item .icon-container {
+  width: 60px; /* Adjust size as needed */
+  height: 60px; /* Adjust size as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* Makes the icon container round */
+  background: #f0f0f0; /* Optional: background color */
+}
+
+.user-login .tab-item .icon {
+  font-size: 32px; /* Adjust icon size as needed */
+  color: #000; /* Optional: icon color */
+}
+
+.user-login .tab-item .label {
+  margin-top: 8px; /* Space between icon and label */
+  text-align: center;
+  font-size: 14px; /* Adjust label size as needed */
+  color: #000; /* Optional: label color */
+}
+
+/* Logout Button Styling */
+.logout-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  --background: #eb7421; /* Background color */
+  --border-color: #d8d0cb; /* Border color */
+  --color: #000000; /* Text color */
+}
+
+.logout-button .ion-icon {
+  color: #000000; /* Icon color */
+}
+
+/* Main Title Specific Styling */
+.main-title {
+  color: #eb7421; /* Dark orange color for the title */
+  margin: 0 10px 10px 5px;
+  font-size: smaller;
+}
+
+.link-label {
+  font-size: small;
+  color: #eb7421;
+  font-family: sans-serif;
+}
+
+ion-segment-button.ion-activated {
+  --color: #eb7421; /* Changes the text color of the selected button */
+  --indicator-color: #eb7421; /* Changes the color of the indicator (the line) */
+  --background: transparent; /* Keeps the background transparent */
+}
+
+ion-segment-button {
+  --indicator-color: #eb7421; /* Changes the default indicator color */
+}
+
+.custom-h2 {
+  font-size: 10px;
+}
+
+/* Notes Tabs Styling */
+.notes-tabs {
+  margin-top: 10px;
+  padding: 10px;
+  background: #0a0a0a; /* Light background color for the tabs container */
+  position: sticky; /* Make the element sticky */
+  top: 0; /* Position it at the top of the viewport */
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+/* Custom Styling for IonSegmentButton */
+.notes-tabs ion-segment-button {
+  --color-selected: #eb7421; /* Color for the selected segment */
+  --color: #eb7421; /* Default text color */
+  --background: transparent; /* Background color */
+  --border-color: #eb7421; /* Border color for the selected segment */
+  --border-width: 2px; /* Border width for the selected segment */
+}
+
+.notes-tabs ion-segment-button.ion-color {
+  --color-selected: #eb7421; /* Color for the selected segment */
+}
+
+.notes-tabs ion-segment-button:hover {
+  --color: #eb7421; /* Color for the text on hover */
+  --background: rgba(235, 116, 33, 0.1); /* Light background color on hover */
+}
+
+/* Notes Section Styling */
+.notes-section {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Styling for Bottom Navigation Bar */
+.bottom-tab-bar {
+  --background: #f5f5f5; /* Background color */
+  --border-color: #eb7421; /* Border color */
+  --color: #000000; /* Text color */
+  padding: 5px;
+  border-radius: 8px 8px 0 0; /* Rounded corners at the top */
+}
+
+.bottom-tab-bar .ion-tab-button {
+  display: flex;
+  justify-content: center; /* Center the icons */
+  align-items: center; /* Center the icons */
+  padding: 10px;
+}
+
+.bottom-tab-bar .ion-tab-button.ion-active {
+  --color: #eb7421; /* Active icon color */
+}

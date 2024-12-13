@@ -1,0 +1,44 @@
+.custom-ion-item {
+    --padding-start: 0;
+    --inner-padding-end: 0;
+    --padding-end: 0;
+  }
+  
+  .custom-label {
+    font-size: 12px;
+    color: #eb7421;
+    transition: color 0.3s ease;
+  }
+  
+  .custom-label:hover {
+    color: #d65f1c; /* Darker shade on hover */
+  }
+  
+  .custom-radio-item {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    --padding-start: 0;
+  }
+  
+  .custom-radio-item:hover {
+    background-color: #f2f2f2; /* Light gray background on hover */
+  }
+  
+  .custom-radio-label {
+    color: #eb7421;
+    transition: color 0.3s ease;
+  }
+  
+  .custom-radio-label:hover {
+    color: #d65f1c; /* Darker shade on hover */
+  }
+  
+  .radio-yes-checked .radio-icon ion-radio-checked {
+    --color: #d65f1c;
+  }
+  
+  .radio-no-checked .radio-icon ion-radio-checked {
+    --color: #d65f1c;
+  }
+  

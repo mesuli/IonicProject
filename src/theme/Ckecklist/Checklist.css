@@ -1,0 +1,17 @@
+/* Define custom styles for radio buttons */
+.radio-yes-checked .radio-icon {
+  --color: green;
+}
+
+.radio-no-checked .radio-icon {
+  --color: red;
+}
+
+/* Optional: Styles for unchecked state */
+.radio-yes-unchecked .radio-icon {
+  --color: black;
+}
+
+.radio-no-unchecked .radio-icon {
+  --color: black;
+}

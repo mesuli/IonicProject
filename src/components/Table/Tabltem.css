@@ -1,0 +1,45 @@
+/* MainPage.css */
+.link-item {
+    --border-color: transparent;
+    --background: rgb(32, 32, 32);
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Adjusted transition duration */
+  }
+  
+  .link-item:hover {
+    background-color: #f0f0f0; /* Background color change on hover */
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .link-item:active {
+    transform: scale(0.95); /* Scale down on click */
+  }
+  
+  /* Custom styles for each TabItem if needed */
+  .user-login-item {
+    color: #eb7421; /* Specific color for user login item */
+  }
+  
+  .checklist-item {
+    color: #eb7421; /* Green color for checklist */
+  }
+  
+  .assistant-item {
+    color: #eb7421; /* Blue color for assistant */
+  }
+  
+  .vehicle-item {
+    color: #eb7421; /* Orange color for vehicle */
+  }
+  
+  .safety-item {
+    color: #eb7421; /* Red color for safety */
+  }
+  
+  .stock-item {
+    color: #eb7421; /* Purple color for stock */
+  }
+  
+  .site-item {
+    color: #607d8b; /* Grey color for site */
+  }
+  

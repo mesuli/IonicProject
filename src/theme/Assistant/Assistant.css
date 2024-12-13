@@ -1,0 +1,10 @@
+/* styles.css */
+.custom-button {
+    background-color: #d65f1c;
+    color: #fff;
+    --background: #d65f1c;
+    --background-activated: #b55018;
+    --background-focused: #d65f1c;
+    --background-hover: #e67337;
+  }
+  

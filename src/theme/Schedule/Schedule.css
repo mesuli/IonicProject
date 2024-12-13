@@ -1,0 +1,64 @@
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Changed to flex-start to align at the top */
+    height: auto; /* Removed height: 100%; */
+    padding: 20px; /* Add padding at the top */
+    text-align: center;
+    background-color: #0c0c0c;
+  }
+  
+  .site-select {
+    margin: 10px 0; /* Reduced margin */
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #eb7421;
+    cursor: pointer; /* Add cursor pointer for better UX */
+  }
+  
+  .site-select::placeholder {
+    color: #999;
+  }
+  
+  .site-select:hover {
+    border-color: #555; /* Darker border on hover */
+  }
+  
+  .shift-info {
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+    color: #0c0c0c;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #eb7421;
+    width: 80%;
+  }
+  
+  .shift-info h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .shift-info p {
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .no-following-shift {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .no-following-shift p {
+    color: #555;
+  }
+  
